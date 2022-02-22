@@ -1,5 +1,8 @@
 # A dashboard page with HTML and vanilla CSS (CSS grid practise)
 
+## Live Preview
+https://guidorial.github.io/dashboard-project/
+
 ## Project Description
 A simple dashboard with no functionality as a practise of CSS grid
 
