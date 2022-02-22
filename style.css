@@ -42,9 +42,8 @@ aside > div > p {
     cursor: pointer;
 }
 
-.side-content:hover{
+.side-content:hover {
     border-bottom: 1px solid white;
-
 }
 
 header {
@@ -139,7 +138,8 @@ button:hover {
     padding: 15px;
     height: 82%;
     display: grid;
-    grid-template-columns: repeat(2, 2fr) 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 10px;
 }
 
 .proyects {
@@ -160,15 +160,19 @@ button:hover {
     grid-column: 3 / 4;
 }
 
+.projects {
+    grid-column: 1 / 3;
+}
+
 .profile-container {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 .trending-users {
     background-color: white;
-    width: 13rem;
+    width: 16rem;
     padding: 10px;
     border-radius: 10px;
 }
@@ -197,9 +201,10 @@ button:hover {
     padding: 10px;
     display: grid;
     gap: 10px;
+    width: 16rem;
 }
 
-.individual-announcement{
+.individual-announcement {
     padding: 5px;
 }
 
@@ -219,4 +224,42 @@ button:hover {
 
 #third-announcement {
     border-top: 1px solid #9a9b9c;
+}
+
+.article-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.project-article {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 10px solid #facc15;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.project-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+}
+.project-description {
+    font-size: 1rem;
+    color: rgb(99, 98, 98);
+}
+
+.icon-container {
+    text-align: right;
+    margin-right: 10px;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:hover {
+    color: #9a9b9c;
 }
